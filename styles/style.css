@@ -1,0 +1,41 @@
+html {
+    font-family: 'Electrolize', sans-serif;
+    background-color: black;
+    color: yellow;
+}
+
+p, ul {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'CrackMan.TTF'
+}
+
+@font-face {
+    font-family: 'CrackMan.TTF';
+    src: url(crackman.ttf);
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+  }
+
+  a {
+      text-decoration: none;
+      color: yellow;
+  }
